@@ -99,7 +99,4 @@
 		</plugins>
 	</build>
 	
-	<modules>
-		<module>AppModel</module>
-	</modules>
 </project>
