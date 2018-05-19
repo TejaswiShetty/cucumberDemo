@@ -5,7 +5,9 @@
   <version>0.0.1-SNAPSHOT</version> 
   <name>AppModel</name>
   <description>AppModel Object Repo</description>
-  <packaging>jar</packaging>
+   <packaging>pom</packaging> 
+   
+  
   
   	<repositories>
 		<repository>
@@ -21,6 +23,7 @@
     <artifactId>log4j</artifactId>
     <version>1.2.17</version>
 </dependency>
+
 </dependencies>
   
 </project>
