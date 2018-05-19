@@ -5,9 +5,7 @@
   <version>0.0.1-SNAPSHOT</version> 
   <name>AppModel</name>
   <description>AppModel Object Repo</description>
-   <packaging>pom</packaging> 
-   
-  
+  <packaging>jar</packaging>
   
   	<repositories>
 		<repository>
