@@ -3,7 +3,9 @@
   <groupId>sc-java-testing</groupId>
   <artifactId>sc-java-testing</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
   
+ 
   	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -57,6 +59,12 @@
 		    <artifactId>java-client</artifactId>
 		    <version>5.0.4</version>
 		</dependency>
+		
+		<dependency>
+		    <groupId>AppModel</groupId>
+		    <artifactId>AppModel</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	
 	<build>
@@ -86,4 +94,7 @@
 		</plugins>
 	</build>
 	
+	<modules>
+		<module>AppModel</module>
+	</modules>
 </project>
