@@ -40,6 +40,7 @@ waitVar.until(ExpectedConditions.presenceOfElementLocated(By
 
 driver.findElement(By.linkText("Sign in")).isDisplayed();
 driver.findElement(By.linkText("Sign up")).isDisplayed();
+
 //vuser[login]
 
 driver.findElement(By.id("user[login]")).sendKeys("abcd");

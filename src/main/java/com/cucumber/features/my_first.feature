@@ -8,6 +8,7 @@ Feature: github login
     Then user is displayed login screen 
     
     
+    
 #    Scenario: logout
 #    Given user has already logged in
 #    When user clicks on logout button

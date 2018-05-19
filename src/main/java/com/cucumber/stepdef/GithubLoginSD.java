@@ -15,6 +15,8 @@ public class GithubLoginSD {
     SeleniumLogout sl= new SeleniumLogout();
     ObjectRepo or=new ObjectRepo();
 
+    
+    
     @Given("^user is on github homepage$")
     public void user_is_on_github_homepage() throws MalformedURLException,
             InterruptedException {
